@@ -109,12 +109,22 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+}
+
+@media (max-width:400px) {
+  .contact-info{
+    height: 0;
+    overflow: hidden;
+  }
+
+  .book2{
+    margin-right: 15px;
+    margin-top: 20px;
   }
 }
 
@@ -445,6 +455,9 @@ h6 {
   color: #cda45e;
 }
 
+.subtitle{
+  font-family: sans-serif;
+}
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
