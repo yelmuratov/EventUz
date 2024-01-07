@@ -1,4 +1,4 @@
-# EventUz
+# Party Time
 
 # PDP university
 
